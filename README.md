@@ -143,7 +143,7 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@master
       - name: 'Sentinel Format'
-        uses: conseilsti/GitHubAction_sentinel-fmt@v1
+        uses: benoitblais-hashicorp-demo/GitHubAction-SentinelFormat@v1
         with:
           version: latest
           check: false
